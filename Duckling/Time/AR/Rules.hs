@@ -1241,13 +1241,13 @@ ruleIntervalSinceTOD = Rule
 
 ruleDaysOfWeek :: [Rule]
 ruleDaysOfWeek = mkRuleDaysOfWeek
-  [ ( "Monday"   , "(ال)?[اإ]ثنين"   )
+  [ ( "Sunday"   , "(ال)?[اأ]حد"     )
+  , ( "Monday"   , "(ال)?[اإ]ثنين"   )
   , ( "Tuesday"  , "(ال)?ثلاثاء?"     )
   , ( "Wednesday", "(ال)?[اأ]ربعاء?" )
   , ( "Thursday" , "(ال)?خميس"       )
   , ( "Friday"   , "(ال)?جمع[ةه]"    )
   , ( "Saturday" , "(ال)?سبت"        )
-  , ( "Sunday"   , "(ال)?[اأ]حد"     )
   ]
 
 ruleMonths :: [Rule]
